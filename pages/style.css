@@ -6,7 +6,7 @@
 
 
 section{
-    background-image: url(../img/home.png);
+    background-image: url(../img/encanto.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,18 +16,14 @@ section{
 
 
 header {
-    height: 150px;
+    height: 80px;
     width: 100%;
     display: flex;
-    
-    background-image: url(../img/encanto.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
+
 .logo{
-    height: 130px;
-    width: 130px;
+    height: 80px;
+    width: 80px;
     margin-left: 40%;
    
 }
@@ -114,13 +110,25 @@ height: 550px;
     margin-top: 10%;
     height: 100px;
     border: 2px solid green;
-    
+    background-color: rgba(0, 0, 0, 0.699);
     margin-right: 20%;
 }
 .caja-num{
     padding-top: 3%;
     padding-left: 4%;
     border-radius: 100px;
+    background-color: rgba(245, 245, 220, 0.712);
+}
+.res{
+    font-weight: 700;
+    color:azure;
+    border-radius: 15px;
+}
+#btn{
+    margin: 5px 55px;
+}
+.audio{
+    margin-top: 50px;
 }
 .final{
     margin-left: 40%;

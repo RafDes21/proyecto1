@@ -11,8 +11,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg  ">
-            <a class="navbar-brand"  href="#"><img class="logo" src="../img/logo.png" alt=""></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand"  href="../index.html"><img class="logo" src="../img/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,9 +37,7 @@
     </header>
 <section class="facil1">
     <div class="container">
-        <audio controls>
-            <source src="../audios/enLoProfundo.mp3" type="audio/mpeg">
-        </audio>
+        
         <div class="row">
             <div class="col-sm caja caja-num">
                 <span id="number1">0</span>
@@ -49,13 +47,16 @@
             </div>
            
             <div class="col-sm caja ">
-                <label for="">resultado</label>
+                <label for=""class="res">Escribe tu respuesta...</label>
                 <input id="probar" type="text">
                 <input id="btn" type="button" value="probar" >
                 
             </div>
         </div>
     </div>
+    <audio controls class="audio">
+        <source src="../audios/enLoProfundo.mp3" type="audio/mpeg">
+    </audio>
     <div class="final">
         <h2 class="pt-5">resultado</h2>
         <p id="result-final"></p>
