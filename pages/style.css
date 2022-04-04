@@ -164,6 +164,28 @@ header {
         
     }
 }
+@media all and (max-width:360px){
+    .home{
+        height: 100%;
+    }
+    .card{
+        padding: 0;
+        margin-left: 7%;
+    }
+    .caja-num{
+        margin-left: -7%;
+    }
+    .res{
+        margin-left: 7%;
+    }
+    #probar{
+        margin-left: 2%;
+    }
+   .caja-res{
+       margin-left: -5%;
+       width: 100%;
+   }
+}
 
 .logo {
     height: 80px;
