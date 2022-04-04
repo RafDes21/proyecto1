@@ -142,7 +142,7 @@ header {
 
 }
 
-@media all and (max-width:412px) {
+@media all and (max-width:414px) {
     .card {
         margin-left: 12%;
     }
