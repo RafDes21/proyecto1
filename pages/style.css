@@ -9,7 +9,7 @@ body {
 }
 
 .home {
-    height: 100%;
+    height: 100vh;
 }
 
 section {
@@ -28,7 +28,11 @@ header {
     display: flex;
 
 }
-
+@media all and (max-width:1005px){
+    .home{
+        height: 100%;
+    }
+}
 @media all and (max-width:992px) {
     header {
         height: 205px;
