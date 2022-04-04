@@ -22,11 +22,11 @@ btn.addEventListener(`click`, () => {
 
     if (result() === parseInt(probar())) {
         const final=document.getElementById(`result-final`)
-        final.innerHTML=`FELICITACIONES!!! ES CORRECTO`
+        final.innerHTML=`FELICITACIONES!!! ES CORRECTO SOS UN GENI@`
         const resultado = document.getElementById(`result`)
         resultado.innerHTML = probar()
     } else {
-        const resultado = document.getElementById(`result`)
+        const resultado = document.getElementById(`result-final`)
         resultado.innerHTML =  `NO ES LA RESPUESTA, PERO PODES VOLVER A INTENTARLO`
     }
 
